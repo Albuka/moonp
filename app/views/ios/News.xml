@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="winNews">
+		<TableView id="newsTable">
+		</TableView>
+		<ActivityIndicator id="ind">
+		</ActivityIndicator>
+	</Window>
+</Alloy>

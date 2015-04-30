@@ -1,0 +1,134 @@
+"#winElements": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor
+},
+"#elementsScroll": {
+	height : Ti.UI.SIZE,
+	top : '48dp',
+	layout : 'vertical'
+},
+"#rowText": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#textFname": {
+	color : Alloy.Globals.ThemeStyles.textfield.color,
+	borderColor : Alloy.Globals.ThemeStyles.textfield.borderColor,
+	height : Alloy.Globals.ThemeStyles.textfield.height,
+	borderWidth : '1dp',
+	top : '10dp',
+	backgroundColor :'transparent', // the new titanium alloy automatically build for Android API level 10 and above so we have to do this so we can hide default textfield theme.
+	hintText : 'Enter text ...',
+	left : '14dp',
+	right : '14dp',
+	width : Ti.UI.FILL,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	paddingLeft : '10dp'
+},
+"#rowSlider": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#customSlider": {
+	min : 0,
+	max : 100,
+	value : 0,
+	left : '14dp',
+	top : '24dp',
+	right : '14dp',
+	width : Ti.UI.FILL,
+	height : '31dp',
+	leftTrackImage : '/images/slider_right.png',
+	rightTrackImage : '/images/slider_default.png'
+},
+"#pBar": {
+	backgroundImage : '/images/slider_default.png',
+	height : '20dp',
+	top : '68dp',
+	left : '14dp',
+	right : '14dp'
+},
+"#progressView": {
+	top : '68dp',
+	left : '14dp',
+	right : '14dp',
+	height : '20dp',
+	backgroundImage : '/images/slider_right.png',
+	//width : '160dp',
+	zIndex : 4
+},
+"#lblProgress": {
+	right : '5dp',
+	color : Alloy.Globals.ThemeStyles.lableProgress.color,
+	font : Alloy.Globals.ThemeStyles.lableProgress.font
+},
+"#rowSwitch": {
+	height : Ti.UI.SIZE
+},
+"#basicSwitch1": {
+	value : true, // mandatory property for iOS,
+	top : '24dp',
+	height : '45dp',
+	width : '70dp'
+},
+"#switchBlack": {
+	height : '40dp',
+	width : '81dp',
+	backgroundImage : '/images/black_uncheck.png',
+	left : '14dp',
+	top : '24dp',
+	title : '',
+	state : 'off'
+},
+"#switchGreenRed": {
+	height : '40dp',
+	width : '81dp',
+	backgroundImage : '/images/green_check.png',
+	right : '14dp',
+	top : '24dp',
+	title : '',
+	state : 'on'
+},
+"#rowButtonMedium": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#btnSmall1": {
+	height : '41dp',
+	width : '141dp',
+	font : Alloy.Globals.ThemeStyles.button.font,
+	color : Alloy.Globals.ThemeStyles.button.color,
+	backgroundColor : Alloy.Globals.ThemeStyles.button.backgroundColor,
+	backgroundSelectedColor : Alloy.Globals.ThemeStyles.button.selectedBackgroundColor,
+	left : '14dp',
+	top : '24dp',
+	borderRadius : '5dp',
+	title : 'Button'
+},
+"#btnSmall2": {
+	height : '41dp',
+	width : '141dp',
+	font : Alloy.Globals.ThemeStyles.button.font,
+	color : Alloy.Globals.ThemeStyles.button.color,
+	backgroundColor : Alloy.Globals.ThemeStyles.button.selectedBackgroundColor,
+	backgroundSelectedColor : Alloy.Globals.ThemeStyles.button.backgroundColor,
+	right : '14dp',
+	borderRadius : '5dp',
+	top : '24dp',
+	title : 'Button'
+},
+"#rowButtonLarge": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#btnLarge": {
+	height : Alloy.Globals.ThemeStyles.button.height,
+	width : Ti.UI.FILL,
+	color : Alloy.Globals.ThemeStyles.button.color,
+	font : Alloy.Globals.ThemeStyles.button.font,
+	backgroundColor : Alloy.Globals.ThemeStyles.button.backgroundColor,
+	backgroundSelectedColor : Alloy.Globals.ThemeStyles.button.selectedBackgroundColor,
+	left : '14dp',
+	right : '14dp',
+	top : '24dp',
+	title : 'SEND MESSAGE'
+}

@@ -1,0 +1,59 @@
+"#headerBar": {
+	height : '48dp',
+	top : 0,
+	backgroundColor : '#465264',//Alloy.Globals.ThemeStyles.win.backgroundColor
+	opacity: '0.5'
+},
+"#leftDivider": {
+	height : '48dp',
+	width : '1dp',
+	backgroundColor : Alloy.Globals.ThemeStyles.win.separatorColor,
+	left : '50dp',
+	zIndex : 5
+},
+"#rightDivider": {
+	height : '48dp',
+	width : '1dp',
+	backgroundColor : Alloy.Globals.ThemeStyles.win.separatorColor,
+	right : '50dp',
+	zIndex : 5
+},
+"#lblTitle": {
+	font : {
+		fontSize : '18dp',
+		fontFamily : 'Montserrat',
+		fontWeight : 'Bold'
+	},
+	color : '#fff'
+},
+"#btnView": {
+	height : '48dp',
+	width : '49dp',
+	backgroundColor : 'transparent',
+	left : 0
+},
+"#menuButton": {
+	title : '',
+	backgroundImage : '/images/icon_menu.png',
+	height : '16dp',
+	width : '24dp',
+	zIndex : 5,
+	visible : false,
+	enabled: false
+},
+"#backButton": {
+	height : '40dp',
+	width : '40dp',
+	backgroundImage : '/images/btn_back.png',
+	left : '5dp',
+	zIndex : 5,
+	visible : false,
+	enabled: false
+},
+"#divider": {
+	height : '1dp',
+	width : Ti.Platform.displayCaps.platformWidth,
+	backgroundColor : Alloy.Globals.ThemeStyles.win.separatorColor,
+	bottom : 0,
+	zIndex : 5
+}

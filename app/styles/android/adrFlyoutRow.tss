@@ -1,0 +1,13 @@
+"#rowMenu": {
+	height : Alloy.Globals.ThemeStyles.flyout_menu_item.rowHeight,
+	backgroundColor : Alloy.Globals.ThemeStyles.flyout_menu_item.rowBackgroundColor,
+	backgroundSelectedColor : Alloy.Globals.ThemeStyles.flyout_menu_item.selectedBackgroundColor,
+},
+"#iconMenu": {
+	width : '32dp',
+	height : '32dp',
+	left: '10dp'
+},
+"#titleMenu": {
+	font : Alloy.Globals.ThemeStyles.flyout_menu_item.font
+}

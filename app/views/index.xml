@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="winParent">
+		<View id="menuview">
+			<TableView id="flyoutTable"></TableView>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,79 @@
+"#winContact": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor,
+	barColor : Alloy.Globals.ThemeStyles.win.barColor,
+	navTintColor :  Alloy.Globals.ThemeStyles.win.navTintColor,
+	translucent : false
+},
+"#contactTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	backgroundColor : 'transparent',
+	separatorStyle : 'none'
+},
+"#row": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 'none'
+},
+"#tfname": {
+	color : Alloy.Globals.ThemeStyles.textfield.color,
+	borderColor : Alloy.Globals.ThemeStyles.textfield.borderColor,
+	height : Alloy.Globals.ThemeStyles.textfield.height,
+	top : 14,
+	hintText : 'name*',
+	left : 14,
+	right : 14,
+	width : Ti.UI.FILL,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	paddingLeft : 10
+},
+"#tfEmail": {
+	color : Alloy.Globals.ThemeStyles.textfield.color,
+	borderColor : Alloy.Globals.ThemeStyles.textfield.borderColor,
+	height : Alloy.Globals.ThemeStyles.textfield.height,
+	top : 14,
+	hintText : 'email*',
+	left : 14,
+	right : 14,
+	width : Ti.UI.FILL,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	paddingLeft : 10
+},
+"#tfSubject": {
+	color : Alloy.Globals.ThemeStyles.textfield.color,
+	borderColor : Alloy.Globals.ThemeStyles.textfield.borderColor,
+	height : Alloy.Globals.ThemeStyles.textfield.height,
+	top : 14,
+	hintText : 'subject*',
+	left : 14,
+	right : 14,
+	width : Ti.UI.FILL,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	paddingLeft : 10
+},
+"#taMessage": {
+	color : Alloy.Globals.ThemeStyles.textarea.color,
+	borderColor : Alloy.Globals.ThemeStyles.textarea.borderColor,
+	backgroundColor : 'transparent',
+	height : Alloy.Globals.ThemeStyles.textarea.height,
+	top : 14,
+	hintText : 'message',
+	left : 14,
+	right : 14,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	width : Ti.UI.FILL,
+	paddingLeft : 10
+},
+"#btnSendMessage": {
+	backgroundColor : Alloy.Globals.ThemeStyles.button.backgroundColor,
+	height : Alloy.Globals.ThemeStyles.button.height,
+	top : 34,
+	left : 14,
+	right : 14,
+	width : Ti.UI.FILL
+},
+"#lblSendMessage": {
+	text : 'SEND MESSAGE',
+	color : Alloy.Globals.ThemeStyles.button.color,
+	font : Alloy.Globals.ThemeStyles.button.font,
+	touchEnabled : false
+}

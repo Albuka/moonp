@@ -1,0 +1,13 @@
+"#winNews": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor
+},
+"#newsTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	top : '48dp',
+	backgroundColor : 'transparent',
+	separatorColor : '#343434'
+},
+"#ind": {
+	style : Titanium.UI.ActivityIndicatorStyle.PLAIN
+}

@@ -1,0 +1,54 @@
+"#outerView": {
+	height : Ti.UI.SIZE,
+	bottom : 7,
+	top : 7,
+	//left : position.left,
+	width : 153
+},
+"#innerView": {
+	top: 7,
+	right: 7,
+	bottom : 7,
+	left : 7,
+	layout : 'vertical',
+	height : Ti.UI.SIZE,
+	backgroundColor : Alloy.Globals.ThemeStyles.products_table_tile.backgroundColor,
+	//info : product
+},
+"#imgProduct": {
+	top: 0,
+	width : Alloy.Globals.ThemeStyles.products_table_row.imageWidth,
+	height : Alloy.Globals.ThemeStyles.products_table_row.imageHeight,
+	hires : true,
+	preventDefaultImage : true,
+	touchEnabled : false
+},
+"#indSmall": {
+	style : Ti.UI.iPhone.ActivityIndicatorStyle.PLAIN
+},
+"#infoView": {
+	height : Ti.UI.SIZE,
+	layout : 'vertical'
+},
+"#lblTitle": {
+	color : Alloy.Globals.ThemeStyles.feed_table_row_title.color,
+	left : 0,
+	font : Alloy.Globals.ThemeStyles.feed_table_row_title.font,
+	top : 10,
+	height : Ti.UI.SIZE,
+	wordWrap : true
+},
+"#tagView": {
+	height : Ti.UI.SIZE,
+	layout : 'horizontal',
+	left : 0,
+	top : 0
+},
+"#lblDetail": {
+	color : Alloy.Globals.ThemeStyles.feed_table_row_teaser.color,
+	left : 0,
+	right : 14,
+	height : 35,
+	top: 10,
+	font : Alloy.Globals.ThemeStyles.feed_table_row_teaser.font
+}

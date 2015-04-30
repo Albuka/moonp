@@ -1,0 +1,56 @@
+"#winHome": {
+	backgroundColor : Alloy.Globals.ThemeStyles.win.backgroundColor,
+	barColor : Alloy.Globals.ThemeStyles.win.barColor,
+	navTintColor : Alloy.Globals.ThemeStyles.win.navTintColor,
+	translucent : false
+},
+"#homeTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	backgroundColor : 'transparent',
+	separatorStyle : 'none'
+},
+"#logoRow": {
+	selectionStyle : 'none'
+},
+"#logoView": {
+	top : 0,
+	backgroundColor : 'transparent',
+	height : Ti.UI.SIZE,
+	layout : 'vertical'
+},
+"#imgLogo": {
+	image : '/images/home-logo.png',
+	height : 95,
+	width : 95,
+	top : 3
+},
+"#lblCompany": {
+	color : Alloy.Globals.ThemeStyles.home_logo.color,
+	text : 'BAREBONE CORPORATION',
+	font : Alloy.Globals.ThemeStyles.home_logo.font
+},
+"#buttonRow1": {
+	selectionStyle : 'none',
+	// height : Ti.UI.SIZE
+	// height set prevents a flickering during the rendering of the home window
+	height : 158,
+},
+"#btnView": {
+	top : 18,
+	backgroundColor : 'transparent',
+	height : Ti.UI.SIZE,
+
+},
+"#buttonRow2": {
+	selectionStyle : 'none',
+	// height : Ti.UI.SIZE
+	// height set prevents a flickering during the rendering of the home window
+	height : 158,
+
+},
+"#btnView2": {
+	top : 14,
+	backgroundColor : 'transparent',
+	height : Ti.UI.SIZE,
+}

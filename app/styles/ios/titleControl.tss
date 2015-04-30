@@ -1,0 +1,12 @@
+"#titleView": {
+	backgroundColor : 'transparent',
+	width : Ti.UI.SIZE
+},
+"#lblTitle": {
+	color : '#fff',
+	font : {
+		fontSize : 18,
+		fontFamily : 'Montserrat',
+		fontWeight : 'Bold'
+		}
+}

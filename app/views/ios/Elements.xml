@@ -1,0 +1,34 @@
+<Alloy>
+	<Window id="winElements">
+		<TableView id="elementsTable">
+			<TableViewRow id="rowText">
+				<TextField id="textFname" />
+			</TableViewRow>
+			<TableViewRow id="rowSlider">
+				<Slider id="customSlider" />
+				<View id="pBar" />
+				<View id="progressView">
+					<Label id="lblProgress" />
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowSwitch">
+				<Switch id="basicSwitch1" />
+				<Button id="switchBlack" />
+				<Button id="switchGreenRed" />
+			</TableViewRow>
+			<TableViewRow id="rowButtonBar">
+				<ButtonBar id="bb1" />
+			</TableViewRow>
+			<TableViewRow id="rowTabbedBar">
+				<TabbedBar id="tb1" />
+			</TableViewRow>
+			<TableViewRow id="rowButtonMedium">
+				<Button id="btnSmall1" />
+				<Button id="btnSmall2" />
+			</TableViewRow>
+			<TableViewRow id="rowButtonLarge">
+				<Button id="btnLarge" />
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

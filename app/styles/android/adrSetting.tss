@@ -1,0 +1,10 @@
+"#winSetting": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor
+}
+// "#lblTest": {
+	// textAlign : 'left',
+	// left : 18,
+	// top: '58dp',
+	// color : '#ffffff',
+	// font : Alloy.Globals.ThemeStyles.flyout_menu_item.font
+// }

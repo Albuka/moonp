@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="btn_custom">
+		<ImageView id="icon" />
+		<Label id="lbl_title" />
+	</View>
+</Alloy>

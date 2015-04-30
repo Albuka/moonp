@@ -1,0 +1,62 @@
+"#winDetail": {
+	backgroundColor : Alloy.Globals.ThemeStyles.win.backgroundColor,
+	zIndex : 20,
+	navBarHidden : true,
+	orientationModes : [Ti.UI.PORTRAIT]
+},
+"#detailTable": {
+	showVerticalScrollIndicator : false,
+	top : '48dp',
+	height : 'auto',
+	backgroundColor : 'transparent',
+	separatorColor : 'transparent'
+},
+"#rowImage": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 'transparent',
+	backgroundColor : 'transparent',
+},
+"#coverImage": {
+	top : '10dp',
+	right : '14dp',
+	left : '14dp',
+	bottom : '10dp',
+	// height :'200dp',
+	height: Ti.UI.SIZE,
+	hires : true,
+},
+"#rowTitle": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 'none',
+	backgroundColor : 'transparent',
+	layout : 'vertical'
+},
+"#lblName": {
+	color : Alloy.Globals.ThemeStyles.detail_title.color,
+	font : Alloy.Globals.ThemeStyles.detail_title.font,
+	top : 0,
+	left : '14dp',
+	right : '14dp',
+	wordWrap : true,
+	height : Ti.UI.SIZE
+},
+"#tagView": {
+	height : Ti.UI.SIZE,
+	layout : 'horizontal',
+	left : '14dp',
+	right : '14dp',
+},
+"#rowDetail": {
+	height : 'auto',
+	selectionStyle : 'none',
+	backgroundColor : 'transparent',
+	layout : 'vertical'
+},
+"#lblDetail": {
+	color :  Alloy.Globals.ThemeStyles.detail_body.color,
+	left : '14dp',
+	right : '14dp',
+	top : '10dp',
+	wordWrap : true,
+	font :  Alloy.Globals.ThemeStyles.detail_body.font
+}

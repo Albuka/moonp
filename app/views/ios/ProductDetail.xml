@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="winDetail">
+		<TableView id="detailTable">
+			<TableViewRow id="rowImage">
+				<ScrollableView id="scrollableView" />
+			</TableViewRow>
+			<TableViewRow id="rowTitle">
+				<Label id="lblName" />
+				<View id="tagView" />
+			</TableViewRow>
+			<TableViewRow id="rowDetail">
+				<Label id="lblDetail" />
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

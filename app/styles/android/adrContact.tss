@@ -1,0 +1,83 @@
+"#winContact": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor
+},
+"#contactScroll": {
+	height : Ti.UI.SIZE,
+	top : '48dp',
+	layout:'vertical'
+},
+"#row": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 'none'
+},
+"#tfname": {
+	color : Alloy.Globals.ThemeStyles.textfield.color,
+	borderColor : Alloy.Globals.ThemeStyles.textfield.borderColor,
+	height : Alloy.Globals.ThemeStyles.textfield.height,
+	top : '14dp',
+	borderWidth : '1dp',
+	hintText : 'name*',
+	left : '14dp',
+	right : '14dp',
+	backgroundColor :'transparent', // the new titanium alloy automatically build for Android API level 10 and above so we have to do this so we can hide default textfield theme.
+	width : Ti.UI.FILL,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	paddingLeft : '10dp'
+},
+"#tfEmail": {
+	color : Alloy.Globals.ThemeStyles.textfield.color,
+	borderColor : Alloy.Globals.ThemeStyles.textfield.borderColor,
+	height : Alloy.Globals.ThemeStyles.textfield.height,
+	borderWidth : '1dp',
+	backgroundColor :'transparent',
+	top : '14dp',
+	hintText : 'email*',
+	left : '14dp',
+	right : '14dp',
+	width : Ti.UI.FILL,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	paddingLeft : '10dp'
+},
+"#tfSubject": {
+	color : Alloy.Globals.ThemeStyles.textfield.color,
+	borderColor : Alloy.Globals.ThemeStyles.textfield.borderColor,
+	height : Alloy.Globals.ThemeStyles.textfield.height,
+	top : '14dp',
+	borderWidth : '1dp',
+	backgroundColor :'transparent',
+	hintText : 'subject*',
+	left : '14dp',
+	right : '14dp',
+	width : Ti.UI.FILL,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	paddingLeft : '10dp'
+},
+"#taMessage": {
+	color : Alloy.Globals.ThemeStyles.textarea.color,
+	borderColor : Alloy.Globals.ThemeStyles.textarea.borderColor,
+	backgroundColor : 'transparent',
+	borderWidth : '1dp',
+	height : Alloy.Globals.ThemeStyles.textarea.height,
+	top : '14dp',
+	hintText : 'message',
+	left : '14dp',
+	right : '14dp',
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	width : Ti.UI.FILL,
+	paddingLeft : '10dp'
+},
+"#btnSendMessage": {
+	backgroundColor : Alloy.Globals.ThemeStyles.button.backgroundColor,
+	height : Alloy.Globals.ThemeStyles.button.height,
+	backgroundSelectedColor : Alloy.Globals.ThemeStyles.button.selectedBackgroundColor,
+	top : '34dp',
+	left : '14dp',
+	right : '14dp',
+	width : Ti.UI.FILL
+},
+"#lblSendMessage": {
+	text : 'SEND MESSAGE',
+	color : Alloy.Globals.ThemeStyles.button.color,
+	font : Alloy.Globals.ThemeStyles.button.font,
+	touchEnabled : false
+}

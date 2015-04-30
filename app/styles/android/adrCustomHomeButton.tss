@@ -1,0 +1,17 @@
+"#btn_custom": {
+	top : 0,
+	//height : 140,
+	//width : 140,
+	backgroundColor : Alloy.Globals.ThemeStyles.home_button.backgroundColor,
+	backgroundSelectedColor : Alloy.Globals.ThemeStyles.home_button.selectedBackgroundColor
+},
+"#icon": {
+	//height : 64,
+	//width : 64,
+	hires : true
+},
+"#lbl_title": {
+	color : Alloy.Globals.ThemeStyles.home_button.color,
+	font : Alloy.Globals.ThemeStyles.home_button.font,
+	bottom : '10dp'
+}

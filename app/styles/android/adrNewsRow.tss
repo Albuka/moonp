@@ -1,0 +1,43 @@
+"#row": {
+	height: 'auto',
+	backgroundColor : Alloy.Globals.ThemeStyles.feed_table_row.backgroundColor,
+	backgroundSelectedColor : Alloy.Globals.ThemeStyles.feed_table_row.selectedBackgroundColor
+},
+"#imgNews": {
+	width : Alloy.Globals.ThemeStyles.feed_table_row.imageWidth,
+	top: '12dp',
+	left: '14dp',
+	touchEnabled : false
+},
+"#outerContainer": {
+	height : Ti.UI.SIZE,
+	top : '10dp',
+	bottom : '10dp',
+	left : '124dp',
+	layout : 'vertical',
+	touchEnabled : false
+},
+"#lblName": {
+	left : 0,
+	font : Alloy.Globals.ThemeStyles.feed_table_row_title.font,
+	color : Alloy.Globals.ThemeStyles.feed_table_row_title.color,
+	top : 0,
+	height : Ti.UI.SIZE,
+	wordWrap : true,
+	touchEnabled : false
+},
+"#tagView": {
+	height : Ti.UI.SIZE,
+	layout : 'horizontal',
+	left : 0,
+	top: 0,
+	touchEnabled : false
+},
+"#lblDetail": {
+	left : 0,
+	right : '14dp',
+	top: '10dp',
+	font : Alloy.Globals.ThemeStyles.feed_table_row_teaser.font,
+	color : Alloy.Globals.ThemeStyles.feed_table_row_teaser.color,
+	touchEnabled : false
+}

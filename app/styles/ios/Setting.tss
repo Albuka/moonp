@@ -1,0 +1,13 @@
+"#winSetting": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor,
+	barColor : Alloy.Globals.ThemeStyles.win.barColor,
+	navTintColor :  Alloy.Globals.ThemeStyles.win.navTintColor,
+	layout : 'vertical',
+	translucent : false
+},
+"#lblTest": {
+	textAlign : 'left',
+	left : 18,
+	color : '#ffffff',
+	font : Alloy.Globals.ThemeStyles.flyout_menu_item.font
+}

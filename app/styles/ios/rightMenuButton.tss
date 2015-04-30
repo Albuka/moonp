@@ -1,0 +1,5 @@
+"#btnRightMenu": {
+	width : 24,
+	height : 16,
+	image : '/images/icon_menu_right.png'
+}

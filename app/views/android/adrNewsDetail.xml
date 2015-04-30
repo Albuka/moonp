@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="winDetail">
+		<TableView id="detailTable">
+			<!-- 
+				TODO: There is an issue related to the calculated height of the 
+				table row. (a titanium alloy bug?)
+			<TableViewRow id="rowImage">
+				<ImageView id="coverImage" />
+			</TableViewRow> 
+			<TableViewRow id="rowTitle">
+				<Label id="lblName" />
+				<View id="tagView" />
+			</TableViewRow>
+			
+			<TableViewRow id="rowDetail">
+				<Label id="lblDetail" />
+			</TableViewRow>
+			-->
+			<TableViewRow id="rowDetail">
+				<ImageView id="coverImage" />
+				<Label id="lblName" />
+				<View id="tagView" />
+				<Label id="lblDetail" />
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

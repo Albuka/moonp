@@ -1,0 +1,22 @@
+<Alloy>
+	<View id="winHome">
+		<!--<TableView id="homeTable">
+			 <TableViewRow id="logoRow">
+				<View id="logoView">
+					<ImageView id="imgLogo" />
+					<!-- <Label id="lblCompany" /> -->
+				<!--</View>
+		</TableViewRow> -->
+			<!--<TableViewRow id="buttonRow1">
+				<View id="btnView" />
+			</TableViewRow>
+			<TableViewRow id="buttonRow2">
+				<View id="btnView2" />
+			</TableViewRow> 
+		</TableView>-->
+		<TableView id="productTable">
+		</TableView>
+		<ActivityIndicator id="ind">
+		</ActivityIndicator>
+	</View>
+</Alloy>

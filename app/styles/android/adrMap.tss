@@ -1,0 +1,15 @@
+"#winMap": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor
+},
+"#mapView": {
+	top : '48dp',
+	animate : true,
+	regionFit : true,
+	userLocation : true,
+	// Available MapType options:
+	//   HYBRID_TYPE 
+	//   SATELLITE_TYPE
+	//   STANDARD_TYPE
+	//   TERRAIN_TYPE	
+	mapType: Ti.Map.STANDARD_TYPE
+}

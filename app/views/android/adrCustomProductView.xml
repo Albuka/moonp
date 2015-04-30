@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="outerView">
+		<View id="innerView">
+			<ImageView id="imgProduct" />
+			<View id="infoView">
+				<Label id="lblTitle" />
+				<View id="tagView" />
+				<Label id="lblDetail" />
+			</View>
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,18 @@
+"#winMap": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor,
+	barColor : Alloy.Globals.ThemeStyles.win.barColor,
+	navTintColor :  Alloy.Globals.ThemeStyles.win.navTintColor,
+	barColor : Alloy.Globals.ThemeStyles.win.barColor,
+	translucent : false
+},
+"#mapview": {
+	region : {
+		latitude : Alloy.Globals.MapData.origin.latitude, //37.390749,
+		longitude : Alloy.Globals.MapData.origin.longitude, //-122.081651,
+		latitudeDelta : 0.01,
+		longitudeDelta : 0.01
+	},
+	animate : true,
+	regionFit : true,
+	userLocation : true
+}

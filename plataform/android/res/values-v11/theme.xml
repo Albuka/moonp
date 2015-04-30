@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Fullscreen" parent="@android:style/Theme.Holo.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowActionBar">false</item>
+		<!-- AppCompat Compatibility -->
+		<item name="windowActionBar">false</item>
+	</style>
+</resources>

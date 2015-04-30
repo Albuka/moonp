@@ -1,0 +1,22 @@
+"Window":{
+    backgroundColor: 'blue'
+},
+"#winParent": {
+	backgroundColor : Alloy.Globals.ThemeStyles.win.backgroundColor
+},
+"#menuview": {
+	left:0,
+	top:0,
+	backgroundColor: '#586476',
+	width : Ti.UI.SIZE,
+	bottom: 5,
+	height : Ti.UI.SIZE
+},
+"#flyoutTable": {
+	width : 275,
+	left: 0,
+	showVerticalScrollIndicator : false,
+	scrollable : true,
+	backgroundColor : 'transparent',
+	separatorStyle : 'none'
+}

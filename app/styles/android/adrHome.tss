@@ -1,0 +1,57 @@
+"#winHome": {
+	//backgroundColor : Alloy.Globals.ThemeStyles.win.backgroundColor,
+	backgroundImage: '/images/fundo.jpg'
+}
+"#homeTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	top : '48dp',
+	backgroundColor : 'transparent',
+	separatorColor : 'transparent'
+},
+"#logoRow": {
+	selectionStyle : 'none'
+},
+"#logoView": {
+	top : 0,
+	backgroundColor : 'transparent',
+	height : Ti.UI.SIZE,
+	layout : 'vertical'
+},
+"#imgLogo": {
+	image : '/images/home-logo.png',
+	height : '36dp',
+	width : '181dp',
+	top : '3dp'
+},
+"#lblCompany": {
+	color : Alloy.Globals.ThemeStyles.home_logo.color,
+	text : 'MOONP',
+	font : Alloy.Globals.ThemeStyles.home_logo.font
+},
+"#buttonRow1": {
+	selectionStyle : 'none',
+	height : Ti.UI.SIZE
+},
+"#btnView": {
+	backgroundColor : 'transparent',
+	height : Ti.UI.SIZE
+},
+"#buttonRow2": {
+	selectionStyle : 'none',
+	height : Ti.UI.SIZE
+},
+"#btnView2": {
+	backgroundColor : 'transparent',
+	height : Ti.UI.SIZE
+}
+"#productTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	backgroundColor : 'transparent',
+	top: '90dp',
+	separatorColor : '#cccccc'
+},
+"#ind": {
+	style : Titanium.UI.ActivityIndicatorStyle.PLAIN
+}

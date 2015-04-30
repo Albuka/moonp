@@ -1,0 +1,13 @@
+"#winProduct": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor
+},
+"#productTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	backgroundColor : 'transparent',
+	top: '148dp',
+	separatorColor : '#343434'
+},
+"#ind": {
+	style : Titanium.UI.ActivityIndicatorStyle.PLAIN
+}

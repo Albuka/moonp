@@ -1,0 +1,15 @@
+"#outerContainer": {
+	width : Ti.UI.SIZE,
+	top : -320,
+	right : 0,
+	zIndex : 14,
+	key : 'Ali Hasnain'
+},
+"#rightMenuTable": {
+	backgroundColor : 'transparent',
+	top : 0,
+	width : 175,
+	right : 0,
+	zIndex : 16,
+	separatorStyle : 'none'
+}

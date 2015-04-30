@@ -1,0 +1,10 @@
+<Alloy>
+	<TableViewRow id="row">
+		<ImageView id="imgNews" />
+		<View id="outerContainer">
+			<Label id="lblName" />
+			<View id="tagView" />
+			<Label id="lblDetail" />
+		</View>
+	</TableViewRow>
+</Alloy>

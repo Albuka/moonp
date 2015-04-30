@@ -1,0 +1,16 @@
+<Alloy>
+	<View id="headerBar">
+		<View id="leftDivider" />
+		<View id="rightDivider" />
+		<View id="logoView">
+					<ImageView id="imgLogo" />
+					<!-- <Label id="lblCompany" /> -->
+				</View>
+				<!-- <Label id="lblTitle"/> -->
+		<View id="btnView">
+			<Button id="menuButton" />
+			<Button id="backButton" />
+		</View>
+		<View id="divider" />
+	</View>
+</Alloy>

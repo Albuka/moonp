@@ -1,0 +1,54 @@
+"#winDetail": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor,
+	navBarHidden : true,
+	orientationModes : [Ti.UI.PORTRAIT]
+},
+"#scrollableView": {
+	showPagingControl : false,
+	pagingControlColor : Alloy.Globals.ThemeStyles.win.backgroundColor, 
+	height : '180dp',
+	left : '14dp',
+	right : '14dp',
+	top: '58dp',
+	bottom : '10dp',
+	zIndex : 4
+},
+"#detailTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	top: '248dp',
+	backgroundColor : 'transparent',
+	separatorColor : 'transparent'
+},
+"#rowTitle": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 'none',
+	backgroundColor : 'transparent',
+	layout : 'vertical'
+},
+"#lblName": {
+	color : Alloy.Globals.ThemeStyles.detail_title.color,
+	font : Alloy.Globals.ThemeStyles.detail_title.font,
+	top : 0,
+	left : '14dp',
+	wordWrap : true,
+	height : Ti.UI.SIZE
+},
+"#tagView": {
+	height : Ti.UI.SIZE,
+	layout : 'horizontal',
+	left : '14dp'
+},
+"#rowDetail": {
+	height : 'auto',
+	selectionStyle : 'none',
+	backgroundColor : 'transparent'
+},
+"#lblDetail": {
+	color :  Alloy.Globals.ThemeStyles.detail_body.color,
+	left : '14dp',
+	right : '14dp',
+	top : '10dp',
+	wordWrap : true,
+	font :  Alloy.Globals.ThemeStyles.detail_body.font
+}

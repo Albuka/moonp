@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="winContact">
+		<TableView id="contactTable">
+			<TableViewRow id="row">
+				<TextField id="tfname" />
+			</TableViewRow>
+			<TableViewRow id="row">
+				<TextField id="tfEmail" />
+			</TableViewRow>
+			<TableViewRow id="row">
+				<TextField id="tfSubject" />
+			</TableViewRow>
+			<TableViewRow id="row">
+				<TextArea id="taMessage" />
+			</TableViewRow>
+			<TableViewRow id="row">
+				<View id="btnSendMessage">
+					<Label id="lblSendMessage" />
+				</View>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

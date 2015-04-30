@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="winParent" backgroundColor="#fff" backgroundImage="http://moonp.com.br/app/images/fundo.jpg">
+		<TableView id="flyoutTable" />
+	</Window>
+</Alloy>

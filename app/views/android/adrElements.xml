@@ -1,0 +1,28 @@
+<Alloy>
+	<View id="winElements">
+		<ScrollView id="elementsScroll">
+			<View id="rowText">
+				<TextField id="textFname" />
+			</View>
+			<View id="rowSlider">
+				<Slider id="customSlider" />
+				<View id="pBar" />
+				<View id="progressView">
+					<Label id="lblProgress" />
+				</View>
+			</View>
+			<View id="rowSwitch">
+				<Switch id="basicSwitch1" />
+				<Button id="switchBlack" />
+				<Button id="switchGreenRed" />
+			</View>
+			<View id="rowButtonMedium">
+				<Button id="btnSmall1" />
+				<Button id="btnSmall2" />
+			</View>
+			<View id="rowButtonLarge">
+				<Button id="btnLarge" />
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

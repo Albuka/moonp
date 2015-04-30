@@ -1,0 +1,16 @@
+"#winNews": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor,
+	title : 'Feeds',
+	navTintColor :  Alloy.Globals.ThemeStyles.win.navTintColor,
+	barColor : Alloy.Globals.ThemeStyles.win.barColor,
+	translucent : false
+},
+"#newsTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	backgroundColor : 'transparent',
+	separatorColor : 'transparent'
+},
+"#ind": {
+	style : Ti.UI.iPhone.ActivityIndicatorStyle.BIG
+}

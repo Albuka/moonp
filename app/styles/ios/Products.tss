@@ -1,0 +1,15 @@
+"#winProduct": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor,
+	navTintColor :  Alloy.Globals.ThemeStyles.win.navTintColor,
+	barColor : Alloy.Globals.ThemeStyles.win.barColor,
+	translucent : false
+},
+"#productTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	backgroundColor : 'transparent',
+	separatorColor : '#343434'
+},
+"#ind": {
+	style : Ti.UI.iPhone.ActivityIndicatorStyle.BIG
+}

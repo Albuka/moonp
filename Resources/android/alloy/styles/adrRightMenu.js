@@ -1,0 +1,1 @@
+module.exports = [{"isId":true,"priority":100100.0103,"key":"outerContainer","style":{width:Ti.UI.SIZE,top:"-320dp",right:0,zIndex:14,}},{"isId":true,"priority":100100.0104,"key":"rightMenuTable","style":{backgroundColor:"transparent",top:0,width:"175dp",right:0,zIndex:16,separatorColor:Alloy.Globals.ThemeStyles.right_menu.rowSeparatorColor,}}];

@@ -1,0 +1,50 @@
+"#outerView": {
+	height : Ti.UI.SIZE,
+	bottom : '7dp',
+	top : '7dp',
+	//width : '153dp',
+	backgroundSelectedColor : Alloy.Globals.ThemeStyles.home_button.selectedBackgroundColor
+},
+"#innerView": {
+	top: '7dp',
+	right: '7dp',
+	bottom : '7dp',
+	left : '7dp',
+	layout : 'vertical',
+	height : Ti.UI.SIZE,
+	backgroundColor : Alloy.Globals.ThemeStyles.products_table_tile.backgroundColor
+},
+"#imgProduct": {
+	top: 0,
+	left : 0,
+	height : Alloy.Globals.ThemeStyles.products_table_row.imageHeight,
+	hires : true,
+	preventDefaultImage : true,
+	touchEnabled : false
+},
+"#infoView": {
+	height : Ti.UI.SIZE,
+	layout : 'vertical'
+},
+"#lblTitle": {
+	color : Alloy.Globals.ThemeStyles.feed_table_row_title.color,
+	left : 0,
+	font : Alloy.Globals.ThemeStyles.feed_table_row_title.font,
+	top : '10dp',
+	height : Ti.UI.SIZE,
+	wordWrap : true
+},
+"#tagView": {
+	height : Ti.UI.SIZE,
+	layout : 'horizontal',
+	left : 0,
+	top : 0
+},
+"#lblDetail": {
+	color : Alloy.Globals.ThemeStyles.feed_table_row_teaser.color,
+	left : 0,
+	right : '14dp',
+	height : '35dp',
+	top : '10dp',
+	font : Alloy.Globals.ThemeStyles.feed_table_row_teaser.font
+}

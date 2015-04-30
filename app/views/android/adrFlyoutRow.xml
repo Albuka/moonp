@@ -1,0 +1,6 @@
+<Alloy>
+	<TableViewRow id="rowMenu">
+		<ImageView id="iconMenu"/>
+		<Label id="titleMenu"/>
+	</TableViewRow>
+</Alloy>

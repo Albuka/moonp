@@ -1,0 +1,19 @@
+"#winProduct": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor,
+	opacity: '0.5'
+},
+"#productScroll": {
+	top: '48dp',
+	height : 'auto',
+	width : Ti.Platform.displayCaps.platformWidth,
+	backgroundColor : 'transparent'
+},
+"#scrollViewContainer": {
+	height : 'auto',
+	layout : 'vertical',
+	width : Ti.Platform.displayCaps.platformWidth,
+	backgroundColor : 'transparent'
+},
+"#ind": {
+	style : Titanium.UI.ActivityIndicatorStyle.PLAIN
+}

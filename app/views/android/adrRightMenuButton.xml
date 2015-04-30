@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="btnView">
+		<Button id="rightMenuButton" />
+	</View>
+</Alloy>

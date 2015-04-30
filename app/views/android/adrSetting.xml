@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="winSetting">
+		<Label id="lblTest" />
+	</View>
+</Alloy>

@@ -1,0 +1,1 @@
+module.exports = [{"isId":true,"priority":100100.0105,"key":"btnView","style":{height:"48dp",width:"49dp",backgroundColor:"transparent",right:0,}},{"isId":true,"priority":100100.0106,"key":"rightMenuButton","style":{title:"",backgroundImage:"/images/icon_menu_right.png",height:"16dp",width:"24dp",zIndex:5,visible:true,}}];

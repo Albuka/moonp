@@ -1,0 +1,164 @@
+"#winElements": {
+	backgroundColor: Alloy.Globals.ThemeStyles.win.backgroundColor,
+	navTintColor :  Alloy.Globals.ThemeStyles.win.navTintColor,
+	barColor : Alloy.Globals.ThemeStyles.win.barColor,
+	translucent : false
+},
+"#elementsTable": {
+	showVerticalScrollIndicator : false,
+	height : 'auto',
+	top: 0,
+	backgroundColor : 'transparent',
+	separatorStyle : 'none'
+},
+"#rowText": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#textFname": {
+	color : Alloy.Globals.ThemeStyles.textfield.color,
+	borderColor : Alloy.Globals.ThemeStyles.textfield.borderColor,
+	height : Alloy.Globals.ThemeStyles.textfield.height,
+	top : 10,
+	hintText : 'Enter text ...',
+	left : 14,
+	right : 14,
+	width : Ti.UI.FILL,
+	font : Alloy.Globals.ThemeStyles.textfield.font,
+	paddingLeft : 10
+},
+"#rowSlider": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#customSlider": {
+	min : 0,
+	max : 100,
+	value : 0,
+	left : 14,
+	top : 24,
+	right : 14,
+	width : Ti.UI.FILL,
+	height : 20,
+	leftTrackImage : '/images/slider_right.png',
+	rightTrackImage : '/images/slider_default.png',
+	thumbImage : '/images/thumb_image.png',
+	args : {
+		min : 0,
+		max : 100
+	}
+},
+"#pBar": {
+	backgroundImage : '/images/slider_default.png',
+	height : 20,
+	top : 68,
+	left : 14,
+	right : 14,
+	width : Ti.UI.FILL
+},
+"#progressView": {
+	top : 68,
+	left : 14,
+	right : 14,
+	height : 20,
+	backgroundImage : '/images/slider_right.png',
+	width : 160,
+	zIndex : 4
+},
+"#lblProgress": {
+	right : 5,
+	color : Alloy.Globals.ThemeStyles.lableProgress.color,
+	font : Alloy.Globals.ThemeStyles.lableProgress.font
+},
+"#rowSwitch": {
+	selectionStyle : 0,
+	height : 65
+},
+"#basicSwitch1": {
+	value : true, // mandatory property for iOS,
+	top : 24
+},
+"#switchBlack": {
+	height : 40,
+	width : 81,
+	backgroundImage : '/images/black_uncheck.png',
+	left : 14,
+	top : 24,
+	title : '',
+	state : 'off'
+},
+"#switchGreenRed": {
+	height : 40,
+	width : 81,
+	backgroundImage : '/images/green_check.png',
+	right : 14,
+	top : 24,
+	title : '',
+	state : 'on'
+},
+"#rowButtonBar": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#bb1": {
+	labels : ['Active', 'Label', 'Label'],
+	backgroundColor : Alloy.Globals.ThemeStyles.button_bar.backgroundColor,
+	font : Alloy.Globals.ThemeStyles.button_bar.font,
+	top : 24,
+	style : Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	height : 40,
+	width : 292
+},
+"#rowTabbedBar": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#tb1": {
+	labels : ['Active', 'Label', 'Label'],
+	backgroundColor : Alloy.Globals.ThemeStyles.tabbed_bar.backgroundColor,
+	font : Alloy.Globals.ThemeStyles.tabbed_bar.font,
+	style : Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	top : 24,
+	height : 40,
+	width : 292,
+	index : 0
+},
+"#rowButtonMedium": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#btnSmall1": {
+	height : 41,
+	width : 141,
+	font : Alloy.Globals.ThemeStyles.button.font,
+	color : Alloy.Globals.ThemeStyles.button.color,
+	backgroundImage : '/images/button_blue.png',
+	left : 14,
+	top : 24,
+	title : 'Button'
+},
+"#btnSmall2": {
+	height : 41,
+	width : 141,
+	font : Alloy.Globals.ThemeStyles.button.font,
+	color : Alloy.Globals.ThemeStyles.button.color,
+	backgroundImage : '/images/button_blue.png',
+	right : 14,
+	top : 24,
+	title : 'Button'
+},
+"#rowButtonLarge": {
+	height : Ti.UI.SIZE,
+	selectionStyle : 0
+},
+"#btnLarge": {
+	height : Alloy.Globals.ThemeStyles.button.height,
+	width : 292,
+	color : Alloy.Globals.ThemeStyles.button.color,
+	font : Alloy.Globals.ThemeStyles.button.font,
+	backgroundImage : '/images/button_large_blue.png',
+	left : 14,
+	right : 14,
+	top : 24,
+	title : 'SEND MESSAGE'
+}
